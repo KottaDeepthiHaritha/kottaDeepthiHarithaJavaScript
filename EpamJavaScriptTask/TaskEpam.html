@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Epam Javascript task</title>
+        <meta charset="utf-8">
+        <style>
+        .button {
+            background-color:#43C6DB; 
+            border: none;
+            color: white;
+            padding: 10px 150px;
+            text-align:left;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 10px;
+            cursor: pointer;
+        }
+        .button1{
+        background-color:#4863A0; 
+        border: none;
+        color: white;
+        padding: 7px 125px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 10px;
+        cursor: pointer;
+        }
+        .button2{
+        background-color:#E66C2C; 
+        border: none;
+        color: white;
+        padding: 7px 139px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 10px;
+        cursor: pointer;
+        }
+        .button3{
+        background-color:#B2C248; 
+        border: none;
+        color: white;
+        padding: 0px 70px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 10px;
+        cursor: pointer;
+        }
+        </style>
+    </head>
+    <body>
+    <br><br><br><br><br>
+    <center>
+        <table frame="border" border="3">
+            <tr><th>
+                <form name="myForm" onsubmit="return validateForm()" method="post">
+                <button class="button">Sign in</button><br><br>
+                <input type="text"  id="fn" style="min-width:80%"; placeholder="First Name"><br><br>
+                <input type="text"  id="ln" style="min-width:80%"; placeholder="Last Name"><br><br>
+                <input type="tel"  id="pn" style="min-width:80%"; placeholder="Phone Number"><br><br>
+                <input type="email"  id="email" style="min-width:80%"; placeholder="mail@example.com"><br><br>
+                <input type="password"  id="pwd" style="min-width:80%"; placeholder="password" minlength="8"><br><br>
+                <input type="submit" style="background-color:#43C6DB;width:150px;height:40px;" value="SIGN IN">
+                <pre>Forgot your password?      Register!</pre>
+                -----------------------------OR-------------------------------<br><br>
+                <button class="button1">facebook</button><br>
+                <button class="button2">gmail</button><br><br>
+                <button class="button3"><pre> < EPAM LOGIN > <pre></button><br><br><br>
+                </form>
+            </th></tr>
+        </table>
+    </center>
+    <script src="scripts/form.js"></script>
+    </body>
+</html> 
